@@ -1,0 +1,33 @@
+﻿<Window x:Class="Operaciones_Matematicas.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Operaciones_Matematicas"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <GroupBox Header="Operaciones" HorizontalAlignment="Left" Height="172" Margin="46,46,0,0" VerticalAlignment="Top" Width="273">
+            <Grid Margin="0,0,-2,2">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="172*"/>
+                    <ColumnDefinition Width="89*"/>
+                    <ColumnDefinition Width="0*"/>
+                    <ColumnDefinition Width="178*"/>
+                </Grid.ColumnDefinitions>
+                <RadioButton x:Name="DivisionRadioButton" Content="División" HorizontalAlignment="Left" Margin="28,113,0,0" VerticalAlignment="Top"/>
+                <RadioButton x:Name="SumaRadioButton" Content="Suma" HorizontalAlignment="Left" Margin="28,25,0,0" VerticalAlignment="Top" Checked="RadioButton_Checked"/>
+                <RadioButton x:Name="RestaRadioButton" Content="Resta" HorizontalAlignment="Left" Margin="28,54,0,0" VerticalAlignment="Top"/>
+                <RadioButton x:Name="MultiplicacionRadioButton" Content="Multiplicación" HorizontalAlignment="Left" Margin="28,84,0,0" VerticalAlignment="Top" Grid.ColumnSpan="2" Width="108"/>
+            </Grid>
+        </GroupBox>
+        <TextBox x:Name="Operando1TextBox" HorizontalAlignment="Left" Height="23" Margin="392,98,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="Operando1TextBox_TextChanged"/>
+        <TextBox x:Name="Operando2TextBox" HorizontalAlignment="Left" Height="23" Margin="392,175,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBlock x:Name="Operando1TextBlock" HorizontalAlignment="Left" Margin="392,77,0,0" TextWrapping="Wrap" VerticalAlignment="Top"><Run Text="Operando 1"/><LineBreak/><Run/></TextBlock>
+        <TextBlock x:Name="Operando2TextBlock" HorizontalAlignment="Left" Margin="392,154,0,0" TextWrapping="Wrap" Text="Operando 2" VerticalAlignment="Top"/>
+        <TextBox x:Name="ResultadoTextBox" HorizontalAlignment="Left" Height="23" Margin="610,133,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBlock x:Name="ResultadoTextBlock" HorizontalAlignment="Left" Margin="610,108,0,0" TextWrapping="Wrap" VerticalAlignment="Top"><Run Text="Operando 1"/><LineBreak/><Run/></TextBlock>
+
+
+    </Grid>
+</Window>
