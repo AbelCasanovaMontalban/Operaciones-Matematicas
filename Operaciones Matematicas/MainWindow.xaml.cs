@@ -76,17 +76,9 @@ namespace Operaciones_Matematicas
 
             if (Division)
             {
-                if (operando1 == 0 || operando2 == 0)
+                if (operando2 == 0)
                 {
-                    if (operando1 == 0 && operando2 == 0)
-                    {
-                        ResultadoTextBox.Text = "0";
-                    }
-                    else
-                    {
-                        ResultadoTextBox.Text = "ERROR";
-                    }
-                    
+                    ResultadoTextBox.Text = "ERROR";
                 }
                 else
                 {
