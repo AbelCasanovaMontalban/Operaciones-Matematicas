@@ -78,7 +78,14 @@ namespace Operaciones_Matematicas
             {
                 if (operando2 == 0)
                 {
-                    ResultadoTextBox.Text = "ERROR";
+                    if (operando1==0 && operando2==0)
+                    {
+                        ResultadoTextBox.Text = "0";
+                    }
+                    else
+                    {
+                        ResultadoTextBox.Text = "ERROR";
+                    }
                 }
                 else
                 {
