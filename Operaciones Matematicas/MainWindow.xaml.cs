@@ -100,7 +100,7 @@ namespace Operaciones_Matematicas
         }
 
 
-        private void Operando1TextBox_TextChanged(object sender, TextChangedEventArgs e)
+        private void OperandoTextBox_TextChanged(object sender, TextChangedEventArgs e)
         {
             Calcular();
         }
@@ -148,9 +148,5 @@ namespace Operaciones_Matematicas
             Calcular();
         }
 
-        private void Operando2TextBox_TextChanged(object sender, TextChangedEventArgs e)
-        {
-            Calcular();
-        }
     }
 }

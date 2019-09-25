@@ -21,8 +21,8 @@
                 <RadioButton x:Name="MultiplicacionRadioButton" Content="Multiplicación" HorizontalAlignment="Left" Margin="28,84,0,0" VerticalAlignment="Top" Grid.ColumnSpan="2" Width="108" Checked="MultiplicacionRadioButton_Checked"/>
             </Grid>
         </GroupBox>
-        <TextBox x:Name="Operando1TextBox" HorizontalAlignment="Left" Height="23" Margin="392,98,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="Operando1TextBox_TextChanged" TextAlignment="Right"/>
-        <TextBox x:Name="Operando2TextBox" HorizontalAlignment="Left" Height="23" Margin="392,175,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="Operando2TextBox_TextChanged" TextAlignment="Right"/>
+        <TextBox x:Name="Operando1TextBox" HorizontalAlignment="Left" Height="23" Margin="392,98,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="OperandoTextBox_TextChanged" TextAlignment="Right"/>
+        <TextBox x:Name="Operando2TextBox" HorizontalAlignment="Left" Height="23" Margin="392,175,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="OperandoTextBox_TextChanged" TextAlignment="Right"/>
         <TextBlock x:Name="Operando1TextBlock" HorizontalAlignment="Left" Margin="392,77,0,0" TextWrapping="Wrap" VerticalAlignment="Top"><Run Text="Operando 1"/><LineBreak/><Run/></TextBlock>
         <TextBlock x:Name="Operando2TextBlock" HorizontalAlignment="Left" Margin="392,154,0,0" TextWrapping="Wrap" Text="Operando 2" VerticalAlignment="Top"/>
         <TextBox x:Name="ResultadoTextBox" HorizontalAlignment="Left" Height="23" Margin="610,133,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextAlignment="Right" IsEnabled="False"/>
